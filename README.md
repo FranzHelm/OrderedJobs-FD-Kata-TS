@@ -12,9 +12,13 @@ The version with EBC uses node.js events. So get \node\node.d.ts from https://gi
 compile and run
 
 cd OrderedJobs-TS-Simple
+
 tsc test_OJ_FD.ts test_OJ_FD_EBC --module "commonjs"
+
 node test_OJ_FD.js
+
 node test_OJ_FD_EBC.js
+
 
 
 Note: This is a test project to learn this design method. It is not sure, if it is correct in the sense of Flow Design or Event Based Components already.
