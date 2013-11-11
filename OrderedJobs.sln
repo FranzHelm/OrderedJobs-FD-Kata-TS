@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderedJobs-TS-Simple", "OrderedJobs-TS-Simple", "{34E0B58E-2EE5-45EA-9C9C-17DC4486FF14}"
+	ProjectSection(SolutionItems) = preProject
+		OrderedJobs-TS-Simple\test_OJ_FD.ts = OrderedJobs-TS-Simple\test_OJ_FD.ts
+		OrderedJobs-TS-Simple\test_OJ_FD_EBC.ts = OrderedJobs-TS-Simple\test_OJ_FD_EBC.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FD", "FD", "{35ACD6C9-D190-49CF-993F-C455C1B36A63}"
+	ProjectSection(SolutionItems) = preProject
+		OrderedJobs-TS-Simple\FD\orderedJobs_FD.ts = OrderedJobs-TS-Simple\FD\orderedJobs_FD.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FD-EBC", "FD-EBC", "{75D9F56E-5941-45FD-B54E-FE949EC04BE1}"
+	ProjectSection(SolutionItems) = preProject
+		OrderedJobs-TS-Simple\FD-EBC\orderedJobs_FD_EBC.ts = OrderedJobs-TS-Simple\FD-EBC\orderedJobs_FD_EBC.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{84712D27-330A-437F-AE0B-E385F7A5CDEC}"
+	ProjectSection(SolutionItems) = preProject
+		OrderedJobs-TS-Simple\common\ojdomain.ts = OrderedJobs-TS-Simple\common\ojdomain.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35ACD6C9-D190-49CF-993F-C455C1B36A63} = {34E0B58E-2EE5-45EA-9C9C-17DC4486FF14}
+		{75D9F56E-5941-45FD-B54E-FE949EC04BE1} = {34E0B58E-2EE5-45EA-9C9C-17DC4486FF14}
+		{84712D27-330A-437F-AE0B-E385F7A5CDEC} = {34E0B58E-2EE5-45EA-9C9C-17DC4486FF14}
+	EndGlobalSection
+EndGlobal
