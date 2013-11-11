@@ -1,4 +1,4 @@
-﻿/// <reference path='../../../../TypeScript/DefinitelyTyped-master/node/node.d.ts'/>
+﻿/// <reference path='../../../DefinitelyTyped/node/node.d.ts'/>
 /// <reference path='../common/ojdomain.ts'/>
 
 import events = require("events");
