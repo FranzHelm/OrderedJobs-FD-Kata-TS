@@ -220,3 +220,4 @@ pip-log.txt
 *.js
 
 *.suo
+*.sln
