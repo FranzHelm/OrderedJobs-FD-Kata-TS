@@ -3,8 +3,7 @@
 
 "use strict";
 
-//import orderedJobs = require("orderedJobs_FD");
-import orderedJobs = require("FD-EBC/orderedJobs_FD_EBC");
+import orderedJobs = require("./FD-EBC/orderedJobs_FD_EBC");
 
 
 var OrderedJobsWrapperModule = orderedJobs.OrderedJobsWrapperModule;
